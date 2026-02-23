@@ -80,10 +80,10 @@ export async function sendOtp(formData: FormData) {
 
         if (emailResult.success) {
             console.log('OTP sent successfully to:', email);
-            return { success: true, message: 'OTP sent successfully!' };
+            return { success: true, message: 'OTP sent! Check your inbox (and spam folder).' };
         } else {
-            console.error('Failed to send OTP to:', email);
-            return { success: false, message: 'Failed to send OTP' };
+            console.error('Failed to send OTP to:', email, emailResult.message);
+            return { success: false, message: `Could not send OTP email. ${emailResult.message || 'Please check server configuration.'}` };
         }
     } catch (error: any) {
         console.error('Error sending OTP:', error);
