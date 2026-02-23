@@ -1,3 +1,4 @@
+// v2 – OTP email SMTP fix
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
