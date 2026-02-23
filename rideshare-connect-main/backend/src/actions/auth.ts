@@ -79,11 +79,15 @@ export async function sendOtp(formData: FormData) {
         console.log('Email Service Result:', emailResult);
 
         if (emailResult.success) {
-            console.log('OTP sent successfully to:', email);
             return { success: true, message: 'OTP sent! Check your inbox (and spam folder).' };
         } else {
-            console.error('Failed to send OTP to:', email, emailResult.message);
-            return { success: false, message: `Could not send OTP email. ${emailResult.message || 'Please check server configuration.'}` };
+            // Email failed (common on cloud servers with Gmail SMTP)
+            // Return OTP directly so the user can still log in
+            console.error('Email failed:', emailResult.message, '– returning OTP in response as fallback');
+            return {
+                success: true,
+                message: `Email unavailable. Your OTP is: ${otp}`,
+            };
         }
     } catch (error: any) {
         console.error('Error sending OTP:', error);
