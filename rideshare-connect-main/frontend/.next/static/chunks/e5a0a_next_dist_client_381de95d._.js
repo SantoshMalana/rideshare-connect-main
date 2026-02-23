@@ -312,7 +312,11 @@ _export(exports, {
         return testReactHydrationWarning;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _iserror = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/lib/is-error.js [app-client] (ecmascript)"));
 const hydrationErrorRegex = /hydration failed|while hydrating|content does not match|did not match|HTML didn't match|text didn't match/i;
 const reactUnifiedMismatchWarning = "Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:";
@@ -696,7 +700,11 @@ _export(exports, {
         return parseConsoleArgs;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _iserror = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/lib/is-error.js [app-client] (ecmascript)"));
 function formatObject(arg, depth) {
     switch(typeof arg){
@@ -950,7 +958,11 @@ Object.defineProperty(exports, "getReactStitchedError", {
         return getReactStitchedError;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _react = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _iserror = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/lib/is-error.js [app-client] (ecmascript)"));
 const _errortelemetryutils = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/lib/error-telemetry-utils.js [app-client] (ecmascript)");
@@ -1034,7 +1046,11 @@ _export(exports, {
         return useErrorHandler;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _react = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 const _attachhydrationerrorstate = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/errors/attach-hydration-error-state.js [app-client] (ecmascript)");
 const _isnextroutererror = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/is-next-router-error.js [app-client] (ecmascript)");
@@ -1189,7 +1205,11 @@ _export(exports, {
         return patchConsoleError;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _iserror = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/lib/is-error.js [app-client] (ecmascript)"));
 const _isnextroutererror = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/is-next-router-error.js [app-client] (ecmascript)");
 const _useerrorhandler = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/errors/use-error-handler.js [app-client] (ecmascript)");
@@ -1313,7 +1333,11 @@ Object.defineProperty(exports, "onRecoverableError", {
         return onRecoverableError;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _bailouttocsr = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/shared/lib/lazy-dynamic/bailout-to-csr.js [app-client] (ecmascript)");
 const _reportglobalerror = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/react-client-callbacks/report-global-error.js [app-client] (ecmascript)");
 const _stitchederror = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/errors/stitched-error.js [app-client] (ecmascript)");
@@ -1507,7 +1531,11 @@ _export(exports, {
         return _default;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _navigationuntracked = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/navigation-untracked.js [app-client] (ecmascript)");
@@ -2100,7 +2128,11 @@ _export(exports, {
         return useActionQueue;
     }
 });
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _isthenable = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/shared/lib/is-thenable.js [app-client] (ecmascript)");
 // The app router state lives outside of React, so we can import the dispatch
@@ -3839,8 +3871,16 @@ Object.defineProperty(exports, "PromiseQueue", {
         return PromiseQueue;
     }
 });
-const _class_private_field_loose_base = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_class_private_field_loose_base.cjs [app-client] (ecmascript)");
-const _class_private_field_loose_key = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_class_private_field_loose_key.cjs [app-client] (ecmascript)");
+const _class_private_field_loose_base = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_class_private_field_loose_base'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+const _class_private_field_loose_key = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_class_private_field_loose_key'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 var _maxConcurrency = /*#__PURE__*/ _class_private_field_loose_key._("_maxConcurrency"), _runningCount = /*#__PURE__*/ _class_private_field_loose_key._("_runningCount"), _queue = /*#__PURE__*/ _class_private_field_loose_key._("_queue"), _processNext = /*#__PURE__*/ _class_private_field_loose_key._("_processNext");
 class PromiseQueue {
     enqueue(promiseFn) {
@@ -5232,7 +5272,11 @@ _export(exports, {
         return RedirectErrorBoundary;
     }
 });
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _navigation = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/navigation.js [app-client] (ecmascript)");
@@ -5909,7 +5953,11 @@ Object.defineProperty(exports, "HTTPAccessFallbackBoundary", {
         return HTTPAccessFallbackBoundary;
     }
 });
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _navigationuntracked = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/navigation-untracked.js [app-client] (ecmascript)");
@@ -6051,7 +6099,11 @@ _export(exports, {
         return bailOnRootNotFound;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _errorboundary = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/http-access-fallback/error-boundary.js [app-client] (ecmascript)");
@@ -6117,7 +6169,11 @@ Object.defineProperty(exports, "default", {
         return formatWebpackMessages;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _stripansi = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/strip-ansi/index.js [app-client] (ecmascript)"));
 // This file is based on https://github.com/facebook/create-react-app/blob/7b1a32be6ec9f99a6c9a3c66813f3ac09c4736b9/packages/react-dev-utils/formatWebpackMessages.js
 // It's been edited to remove chalk and CRA-specific logic
@@ -6627,7 +6683,11 @@ Object.defineProperty(exports, "FontStyles", {
         return FontStyles;
     }
 });
-const _tagged_template_literal_loose = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_tagged_template_literal_loose.cjs [app-client] (ecmascript)");
+const _tagged_template_literal_loose = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_tagged_template_literal_loose'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _css = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/utils/css.js [app-client] (ecmascript)");
 const _react = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 function _templateObject() {
@@ -6672,7 +6732,11 @@ Object.defineProperty(exports, "ShadowPortal", {
         return ShadowPortal;
     }
 });
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _reactdom = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react-dom/index.js [app-client] (ecmascript)");
 const _shared = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/shared.js [app-client] (ecmascript)");
@@ -6738,7 +6802,11 @@ Object.defineProperty(exports, "Base", {
         return Base;
     }
 });
-const _tagged_template_literal_loose = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_tagged_template_literal_loose.cjs [app-client] (ecmascript)");
+const _tagged_template_literal_loose = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_tagged_template_literal_loose'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _css = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/utils/css.js [app-client] (ecmascript)");
 function _templateObject() {
@@ -6779,7 +6847,11 @@ Object.defineProperty(exports, "HotlinkedText", {
         return HotlinkedText;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _magicidentifier = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/shared/lib/magic-identifier.js [app-client] (ecmascript)");
@@ -7329,7 +7401,11 @@ _export(exports, {
         return parseLineNumberFromCodeFrameLine;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _anser = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/anser/index.js [app-client] (ecmascript)"));
 const _stripansi = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/strip-ansi/index.js [app-client] (ecmascript)"));
 function formatCodeFrame(codeFrame) {
@@ -7538,7 +7614,11 @@ Object.defineProperty(exports, "useOnClickOutside", {
         return useOnClickOutside;
     }
 });
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 function useOnClickOutside(el, cssSelectorsToExclude, handler) {
     _react.useEffect({
@@ -7652,7 +7732,11 @@ Object.defineProperty(exports, "Dialog", {
         return Dialog;
     }
 });
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _useonclickoutside = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/ui/hooks/use-on-click-outside.js [app-client] (ecmascript)");
@@ -7765,7 +7849,11 @@ Object.defineProperty(exports, "DialogBody", {
         return DialogBody;
     }
 });
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const DialogBody = function DialogBody(param) {
@@ -7798,7 +7886,11 @@ Object.defineProperty(exports, "DialogContent", {
         return DialogContent;
     }
 });
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const DialogContent = function DialogContent(param) {
@@ -7831,7 +7923,11 @@ Object.defineProperty(exports, "DialogHeader", {
         return DialogHeader;
     }
 });
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const DialogHeader = function DialogHeader(param) {
@@ -7983,7 +8079,11 @@ _export(exports, {
         return CopyButton;
     }
 });
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _cx = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/ui/utils/cx.js [app-client] (ecmascript)");
@@ -10200,7 +10300,11 @@ Object.defineProperty(exports, "Overlay", {
         return Overlay;
     }
 });
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _bodylocker = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/ui/components/overlay/body-locker.js [app-client] (ecmascript)");
@@ -10597,7 +10701,11 @@ _export(exports, {
         return styles;
     }
 });
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _dialog = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/ui/components/dialog/index.js [app-client] (ecmascript)");
@@ -10860,8 +10968,16 @@ _export(exports, {
         return Terminal;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _anser = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/anser/index.js [app-client] (ecmascript)"));
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
@@ -11048,7 +11164,11 @@ Object.defineProperty(exports, "Toast", {
         return Toast;
     }
 });
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _cx = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/ui/utils/cx.js [app-client] (ecmascript)");
@@ -11162,8 +11282,16 @@ _export(exports, {
         return styles;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _stripansi = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/strip-ansi/index.js [app-client] (ecmascript)"));
@@ -11449,7 +11577,11 @@ _export(exports, {
         return useFrames;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _shared = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/shared.js [app-client] (ecmascript)");
 const _stackframe = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/utils/stack-frame.js [app-client] (ecmascript)");
 const _errorsource = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/shared/lib/error-source.js [app-client] (ecmascript)");
@@ -11951,8 +12083,16 @@ _export(exports, {
         return NextLogo;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
-const _tagged_template_literal_loose = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_tagged_template_literal_loose.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+const _tagged_template_literal_loose = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_tagged_template_literal_loose'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 const _css = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/utils/css.js [app-client] (ecmascript)");
@@ -13254,8 +13394,16 @@ _export(exports, {
         return UserPreferences;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
-const _tagged_template_literal_loose = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_tagged_template_literal_loose.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+const _tagged_template_literal_loose = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_tagged_template_literal_loose'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 const _css = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/utils/css.js [app-client] (ecmascript)");
@@ -13573,7 +13721,11 @@ _export(exports, {
         return DevToolsIndicator;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 const _toast = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/ui/components/toast/index.js [app-client] (ecmascript)");
@@ -13962,7 +14114,11 @@ Object.defineProperty(exports, "ComponentStyles", {
         return ComponentStyles;
     }
 });
-const _tagged_template_literal_loose = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_tagged_template_literal_loose.cjs [app-client] (ecmascript)");
+const _tagged_template_literal_loose = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_tagged_template_literal_loose'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _codeframe = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/ui/components/code-frame/code-frame.js [app-client] (ecmascript)");
 const _dialog = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/ui/components/dialog/index.js [app-client] (ecmascript)");
@@ -14047,8 +14203,16 @@ Object.defineProperty(exports, "CssReset", {
         return CssReset;
     }
 });
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
-const _tagged_template_literal_loose = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_tagged_template_literal_loose.cjs [app-client] (ecmascript)");
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+const _tagged_template_literal_loose = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_tagged_template_literal_loose'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _css = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/utils/css.js [app-client] (ecmascript)");
@@ -14088,7 +14252,11 @@ Object.defineProperty(exports, "Colors", {
         return Colors;
     }
 });
-const _tagged_template_literal_loose = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_tagged_template_literal_loose.cjs [app-client] (ecmascript)");
+const _tagged_template_literal_loose = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_tagged_template_literal_loose'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _css = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/utils/css.js [app-client] (ecmascript)");
 function _templateObject() {
@@ -14323,7 +14491,11 @@ Object.defineProperty(exports, "DarkTheme", {
         return DarkTheme;
     }
 });
-const _tagged_template_literal_loose = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_tagged_template_literal_loose.cjs [app-client] (ecmascript)");
+const _tagged_template_literal_loose = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_tagged_template_literal_loose'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _css = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/utils/css.js [app-client] (ecmascript)");
 function _templateObject() {
@@ -14930,8 +15102,16 @@ Object.defineProperty(exports, "TurbopackHmr", {
         return TurbopackHmr;
     }
 });
-const _class_private_field_loose_base = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_class_private_field_loose_base.cjs [app-client] (ecmascript)");
-const _class_private_field_loose_key = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_class_private_field_loose_key.cjs [app-client] (ecmascript)");
+const _class_private_field_loose_base = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_class_private_field_loose_base'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+const _class_private_field_loose_key = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_class_private_field_loose_key'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 // How long to wait before reporting the HMR start, used to suppress irrelevant
 // `BUILDING` events. Does not impact reported latency.
 const TURBOPACK_HMR_START_DELAY_MS = 100;
@@ -15096,7 +15276,11 @@ _export(exports, {
         return waitForWebpackRuntimeHotUpdate;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 const _stripansi = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/strip-ansi/index.js [app-client] (ecmascript)"));
@@ -15627,7 +15811,11 @@ _export(exports, {
         return isExternalURL;
     }
 });
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _approutercontextsharedruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/shared/lib/app-router-context.shared-runtime.js [app-client] (ecmascript)");
@@ -18810,7 +18998,11 @@ Object.defineProperty(exports, "createRootLevelDevOverlayElement", {
         return createRootLevelDevOverlayElement;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 const _react = /*#__PURE__*/ _interop_require_default._(__turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"));
 const _getsocketurl = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/react-dev-overlay/utils/get-socket-url.js [app-client] (ecmascript)");
@@ -18950,8 +19142,16 @@ Object.defineProperty(exports, "hydrate", {
         return hydrate;
     }
 });
-const _interop_require_default = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
-const _interop_require_wildcard = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)");
+const _interop_require_default = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_default'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+const _interop_require_wildcard = (()=>{
+    const e = new Error("Cannot find module '@swc/helpers/_/_interop_require_wildcard'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 const _jsxruntime = __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
 __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/build/polyfills/polyfill-module.js [app-client] (ecmascript)");
 __turbopack_context__.r("[project]/rideshare-connect-main/node_modules/next/dist/client/components/globals/patch-console.js [app-client] (ecmascript)");
