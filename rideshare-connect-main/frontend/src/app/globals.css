@@ -1,4 +1,4 @@
-/* Updated: 2025-12-20T14:01:12.010Z */
+/* Updated: RideShare Hub – Enhanced Design System */
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -121,6 +121,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* ─── Custom scrollbar ─── */
 .custom-scrollbar::-webkit-scrollbar {
   width: 5px;
 }
@@ -133,4 +135,84 @@
 }
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
+}
+
+/* ─── Utility animations ─── */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.9); opacity: 0.7; }
+  50% { transform: scale(1.1); opacity: 0.3; }
+  100% { transform: scale(0.9); opacity: 0.7; }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  background-size: 200% 100%;
+  animation: shimmer 3s linear infinite;
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2s ease-in-out infinite;
+}
+
+/* ─── Gradient utilities ─── */
+.gradient-blue {
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+}
+
+.gradient-blue-soft {
+  background: linear-gradient(135deg, #eff6ff, #eef2ff, #f0f9ff);
+}
+
+.gradient-text-blue {
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── Glass effect ─── */
+.glass {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-strong {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* ─── Dot pattern ─── */
+.dot-pattern {
+  background-image: radial-gradient(circle, #cbd5e1 1px, transparent 1px);
+  background-size: 24px 24px;
 }

@@ -61,11 +61,11 @@ export async function createRide(prevState: any, formData: FormData) {
     }
 }
 
-export async function getRides(search?: string) {
+export async function getRides(search?: string, sort?: string) {
     try {
         await dbConnect();
 
-        let query = {};
+        let query: any = {};
         if (search) {
             query = {
                 $or: [
@@ -75,9 +75,19 @@ export async function getRides(search?: string) {
             };
         }
 
-        const rides = await Ride.find(query).sort({ createdAt: -1 }).lean();
+        // Only show rides with available seats
+        query.seats = { $gt: 0 };
 
-        // Explicitly map to a plain object to avoid any Mongoose leftovers and fix type issues
+        // Determine sort order
+        let sortOption: any = { createdAt: -1 }; // Default: most recent
+        if (sort === 'earliest') {
+            sortOption = { date: 1, time: 1 };
+        } else if (sort === 'price') {
+            sortOption = { price: 1 };
+        }
+
+        const rides = await Ride.find(query).sort(sortOption).lean();
+
         return rides.map((ride: any) => ({
             _id: ride._id ? ride._id.toString() : '',
             from: ride.from,
@@ -112,12 +122,26 @@ export async function bookRide(rideId: string) {
             return { success: false, message: 'Ride not found' };
         }
 
+        // Check seat availability
+        if (ride.seats <= 0) {
+            return { success: false, message: 'Sorry, no seats available for this ride' };
+        }
+
+        // Prevent self-booking
+        if (ride.driverEmail === passengerEmail) {
+            return { success: false, message: 'You cannot book your own ride' };
+        }
+
         const passenger = await User.findOne({ email: passengerEmail });
         const driver = await User.findOne({ email: ride.driverEmail });
 
         if (!passenger || !driver) {
             return { success: false, message: 'User not found' };
         }
+
+        // Decrement seats
+        ride.seats -= 1;
+        await ride.save();
 
         // Add to passenger's history
         passenger.rides = passenger.rides || [];
@@ -145,6 +169,7 @@ export async function bookRide(rideId: string) {
         });
         await driver.save();
 
+        revalidatePath('/find-ride');
         return { success: true, message: 'Ride booked successfully!' };
     } catch (error) {
         console.error('Booking Error:', error);
