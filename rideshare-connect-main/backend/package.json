@@ -1,0 +1,20 @@
+{
+    "name": "@rideshare/backend",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+        "start": "echo Backend workspace is a library of Server Actions and Models used by the Frontend. It does not run as a standalone server yet.",
+        "dev": "echo Backend logic is shared. Run the frontend to see it in action.",
+        "check-types": "tsc --noEmit"
+    },
+    "dependencies": {
+        "mongoose": "^9.0.2",
+        "pusher": "^5.2.0",
+        "nodemailer": "^7.0.11",
+        "bcrypt": "^6.0.0",
+        "zod": "^4.1.12"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
