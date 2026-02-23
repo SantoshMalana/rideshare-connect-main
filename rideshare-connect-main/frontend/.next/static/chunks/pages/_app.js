@@ -1,0 +1,8 @@
+__turbopack_load_page_chunks__("/_app", [
+  "static/chunks/[root-of-the-server]__b9c19101._.js",
+  "static/chunks/e5a0a_react-dom_0c4cc5e8._.js",
+  "static/chunks/e5a0a_52334b45._.js",
+  "static/chunks/[root-of-the-server]__014d67c4._.js",
+  "static/chunks/rideshare-connect-main_frontend_pages__app_5771e187._.js",
+  "static/chunks/rideshare-connect-main_frontend_pages__app_3a27859f._.js"
+])
